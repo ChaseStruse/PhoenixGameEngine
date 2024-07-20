@@ -22,8 +22,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{80d18c9a-43b0-4359-acb6-b285b3ebaf6c}</ProjectGuid>
-    <RootNamespace>Phoenix</RootNamespace>
+    <ProjectGuid>{1fc4c093-8d9f-4d9d-b583-1c611712b513}</ProjectGuid>
+    <RootNamespace>PhoenixGameEngine</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
