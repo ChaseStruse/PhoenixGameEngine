@@ -7,6 +7,10 @@ extern Phoenix::Application* Phoenix::CreateApplication();
 
 
 int main(int argc, char** argv) {
+	Phoenix::Log::Init();
+	Phoenix::Log::GetCoreLogger()->warn("Initialized Log");
+	Phoenix::Log::GetClientLogger()->warn("Initialized CLient Log");
+
 	auto app = Phoenix::CreateApplication();
 	app->Run();
 	delete app;
