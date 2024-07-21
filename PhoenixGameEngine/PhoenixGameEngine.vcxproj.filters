@@ -24,6 +24,9 @@
     <ClInclude Include="src\Phoenix.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\Phoenix\EntryPoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Phoenix\Application.cpp">

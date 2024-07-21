@@ -22,6 +22,7 @@
     <ClInclude Include="src\Phoenix.h" />
     <ClInclude Include="src\Phoenix\Application.h" />
     <ClInclude Include="src\Phoenix\Core.h" />
+    <ClInclude Include="src\Phoenix\EntryPoint.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Phoenix\Application.cpp" />

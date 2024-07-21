@@ -11,5 +11,8 @@ namespace Phoenix {
 
 		void Run();
 	};
+
+	// To be defined in Client
+	Application* CreateApplication();
 }
 
