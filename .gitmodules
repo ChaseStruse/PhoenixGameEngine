@@ -1,0 +1,6 @@
+[submodule "Phoenix/vendor/spdlog"]
+	path = Phoenix/vendor/spdlog
+	url = https://github.com/gabime/spdlog
+[submodule "PhoenixGameEngine/vendor/spdlog"]
+	path = PhoenixGameEngine/vendor/spdlog
+	url = https://github.com/gabime/spdlog
