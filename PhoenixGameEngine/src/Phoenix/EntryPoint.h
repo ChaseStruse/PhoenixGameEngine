@@ -8,8 +8,8 @@ extern Phoenix::Application* Phoenix::CreateApplication();
 
 int main(int argc, char** argv) {
 	Phoenix::Log::Init();
-	Phoenix::Log::GetCoreLogger()->warn("Initialized Log");
-	Phoenix::Log::GetClientLogger()->warn("Initialized CLient Log");
+	PHOENIX_CORE_INFO("Initialized Log");
+	PHOENIX_CORE_WARN("Initialized {0}", "Client Log");
 
 	auto app = Phoenix::CreateApplication();
 	app->Run();
